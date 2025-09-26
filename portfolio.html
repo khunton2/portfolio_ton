@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<body>
+    <div id="particles-js"></div>
+
+    <!-- Header Section -->
+    <header class="header-3d">
+        <div class="cube-container">
+            <div class="cube">
+                <div class="cube-face front">DEV</div>
+                <div class="cube-face back">3D</div>
+                <div class="cube-face right">CSS</div>
+                <div class="cube-face left">JS</div>
+                <div class="cube-face top">ART</div>
+                <div class="cube-face bottom">WEB</div>
+            </div>
+            <div class="cube">
+                <div class="cube-face front">UI</div>
+                <div class="cube-face back">UX</div>
+                <div class="cube-face right">DES</div>
+                <div class="cube-face left">IGN</div>
+                <div class="cube-face top">CODE</div>
+                <div class="cube-face bottom">FUN</div>
+            </div>
+            <div class="cube">
+                <div class="cube-face front">CSS</div>
+                <div class="cube-face back">3D</div>
+                <div class="cube-face right">HTML</div>
+                <div class="cube-face left">JS</div>
+                <div class="cube-face top">WEB</div>
+                <div class="cube-face bottom">DEV</div>
+            </div>
+        </div>
+
+        <div class="header-content">
+            <h1 class="blog-title">phasit khunyak</h1>
+            <p class="blog-subtitle">Web Developer & UX/UI</p>
+            <div class="nav-3d">
+                <div class="nav-item" onclick="scrollToSection('about')">About</div>
+                <div class="nav-item" onclick="scrollToSection('skills')">Skills</div>
+                <div class="nav-item" onclick="scrollToSection('portfolio')">Portfolio</div>
+                <div class="nav-item" onclick="scrollToSection('contact')">Contact</div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! I'm Alex, a front-end developer with a passion for creating immersive web experiences
+                        using 3D CSS and JavaScript.</p>
+                    <p>With over 5 years of experience in web development, I specialize in creating interactive and
+                        visually stunning websites that push the boundaries of what's possible in the browser.</p>
+                    <p>When I'm not coding, you can find me exploring new technologies, contributing to open source
+                        projects, or creating digital art.</p>
+                </div>
+                <div class="about-image">
+                    <i class="fas fa-user"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML5</h3>
+                    <p>Semantic markup, accessibility, and modern HTML features.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3>CSS3</h3>
+                    <p>Animations, flexbox, grid, and 3D transformations.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <p>ES6+, DOM manipulation, and interactive web features.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <h3>3D Design</h3>
+                    <p>CSS 3D transforms, WebGL, and Three.js basics.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <center>
+        <section id="portfolio" class="section">
+            <div class="container">
+                <h2 class="section-title">My Portfolio</h2>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <i class="fas fa-cubes"></i>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>3D Portfolio Site</h3>
+                            <p>A personal portfolio with 3D CSS effects</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>3D Game Interface</h3>
+                            <p>Interactive game UI with 3D elements</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>E-commerce Experience</h3>
+                            <p>3D product visualization for online store</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </center>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-3d">
+        <div class="container">
+            <div class="social-links">
+                <a href="https://www.figma.com/files/team/1303077304645389529/recents-and-sharing?fuid=908030046850099699"
+                    class="social-link"><i class="fa-brands fa-figma"></i></a>
+                <a href="https://canary.discord.com/channels/1126773867281645599/1165583741813542933"
+                    class="social-link"><i class="fa-brands fa-discord"></i></a>
+                <a href="https://www.linkedin.com/in/khxnton/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/khunton2" class="social-link"><i class="fa-brands fa-github"></i></a>
+            </div>
+
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
